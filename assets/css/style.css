@@ -1,0 +1,60 @@
+body{
+    background-color: #2c03c0!important;
+}
+
+.navbar{
+    background: #a8070f;
+}
+
+span{
+   
+    color:#dddddd;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left:1rem;
+}
+
+.imgNavbar{
+    margin-left: 1rem;
+}
+
+.imgPrincipal img{
+    margin-top:4rem;
+    border-radius: 15px 15px;
+    box-shadow: 15px 20px 30px 10px red;
+}
+
+form{
+    background-color: #2c03c0;
+    border-radius: 15px 15px;
+    max-width: 70rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    max-height: 20rem;
+}
+
+.labeltitle{
+    color: #000000;
+    font-family:  'Cabin', sans-serif;
+    font-weight: 900;
+    color:rgb(241, 206, 5);
+    font-size: 30px;
+  
+}
+
+.labelsubtitle{
+    color: #f8f7f7;
+    font-family:  'Cabin', sans-serif;
+    font-weight: 900;
+   
+}
+
+form .buscarbutton{
+    font-family:  'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
