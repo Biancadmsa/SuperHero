@@ -10,7 +10,7 @@ $("document").ready(function () {
         alert("Solo hay 731 SuperHero registrados.\n Por favor ingrese un número entre 1 y 731");
       }
   
-      // SE HACE LA CONSULTA AJAX USANDO EL VALOR DEL INPUT
+      // SE HACE LA CONSULTA AJAX con EL VALOR DEL numero ingresado
   
       $.ajax({
         url: "https://superheroapi.com/api.php/4905856019427443/" + numeroIngresado,
@@ -37,22 +37,22 @@ $("document").ready(function () {
             primeraAparicion = "No se tiene registro";
           }
           if (poder == "null"){
-            alert ('Todos los datos de este héroe son nulos.\n NO SE MOSTRARAN ESTADISTICAS')
+            alert ('Los datos de este héroe son nulos.\n NO SE MOSTRARAN ESTADISTICAS')
           }
   
           // SE INGRESAN LOS DATOS PARA LA TARJETA DEL SUPERHEROE
-          $("#heroeDescripcion").html(`<div class="row">
-        <div class="col-md-4 my-auto text-center ">
-          <img id="heroImg" src="${imagen}" height="350px" />
+          $("#heroeDescripcion").html(`<div class="row bg-dark">
+        <div class="col-md-4 my-auto  text-center ">
+          <img id="heroImg" src="${imagen}" height="350px" width= "350px"/>
         </div>
         <div class="col-md-4">
-          <div class="card-body">
-            <h5 class="card-text"><b>NOMBRE:</b></h5>
-            <h4 class="card-title"><b>${nombre}</b></h4>
+          <div class="card-body text-white letrasCard">
+            <h5 class="card-text "><b>NOMBRE:</b></h5>
+            <h4 class="card-title fw-semibold text-danger"><b>${nombre}</b></h4>
             <p class="card-text"><b>CONEXIONES:</b> ${conexiones}.</p>
             <p class="card-text"><b>FECHA DE PUBLICACION:</b> ${publicado}.</p>
-            <p class="card-text"><b>OCUPACION:</b> ${ocupacion}.</p>
-            <p class="card-text"><b>PRIMERA APARICION:</b> ${primeraAparicion}.</p>
+            <p class="card-text"><b>OCUPACIÓN:</b> ${ocupacion}.</p>
+            <p class="card-text"><b>PRIMERA APARICIÓN:</b> ${primeraAparicion}.</p>
             <p class="card-text"><b>ALTURA:</b> ${altura}.</p>
             <p class="card-text"><b>PESO:</b> ${peso}.</p>
             <p class="card-text"><b>ALIAS:</b> ${alias}.</p>
@@ -81,7 +81,7 @@ $("document").ready(function () {
             theme: "dark2",
             animationEnabled: true,
             title: {
-              text: `Estadisticas de Poder para ${data.name}`,
+              text: `Estadísticas de Poder para ${data.name}`,
             },
             data: [
               {

@@ -60,4 +60,10 @@ form .buscarbutton{
 #informacionHeroes{
     padding-left: 10rem;
     padding-right: 10rem;
+   
+}
+
+.letrasCard{
+    font-family:  'Cabin', sans-serif;
+   
 }
