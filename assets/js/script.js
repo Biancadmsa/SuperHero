@@ -6,9 +6,13 @@ $("document").ready(function () {
       let numeroIngresado = $("#inputBuscador").val();
   
       // VALIDAMOS QUE EL USUARIO NO INGRESE UN NUMERO MAYOR A 731, YA QUE ESA ES LA CANTIDAD DE HEROES
-      if (numeroIngresado > 731) {
-        alert("Solo hay 731 SuperHero registrados.\n Por favor ingrese un número entre 1 y 731");
+      if (numeroIngresado <= 0) {
+        alert("Solo se aceptan números positivos.\n Por favor ingrese un número entre el 1 y 731");
+      }  else if (numeroIngresado > 731) {
+        // Si el valor ingresado no es un número
+        alert("Solo hay 731 Super Heros. Por favor, ingrese un número entre 1 y 731.");
       }
+  
   
       // SE HACE LA CONSULTA AJAX con EL VALOR DEL numero ingresado
   
@@ -50,7 +54,7 @@ $("document").ready(function () {
             <h5 class="card-text "><b>NOMBRE:</b></h5>
             <h4 class="card-title fw-semibold text-danger"><b>${nombre}</b></h4>
             <p class="card-text"><b>CONEXIONES:</b> ${conexiones}.</p>
-            <p class="card-text"><b>FECHA DE PUBLICACION:</b> ${publicado}.</p>
+            <p class="card-text"><b>FECHA DE PUBLICACIÓN:</b> ${publicado}.</p>
             <p class="card-text"><b>OCUPACIÓN:</b> ${ocupacion}.</p>
             <p class="card-text"><b>PRIMERA APARICIÓN:</b> ${primeraAparicion}.</p>
             <p class="card-text"><b>ALTURA:</b> ${altura}.</p>

@@ -12,6 +12,7 @@ span{
     font-family:  'Roboto', sans-serif;
     font-weight: 500;
     margin-left:1rem;
+    
 }
 
 .imgNavbar{
@@ -41,7 +42,7 @@ form{
     font-family:  'Cabin', sans-serif;
     font-weight: 900;
     color:rgb(241, 206, 5);
-    font-size: 30px;
+    font-size: 50px;
   
 }
 
@@ -49,6 +50,7 @@ form{
     color: #f8f7f7;
     font-family:  'Cabin', sans-serif;
     font-weight: 900;
+    font-size: 25px;
    
 }
 
