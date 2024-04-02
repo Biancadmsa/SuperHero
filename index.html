@@ -34,63 +34,51 @@
 
 
 <!-- Formulario Buscador -->
+<section>
       <form>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label labeltitle">Encuentra tu SuperHero</label>
+          <label for="exampleInputtext" class="form-label labeltitle">Encuentra tu SuperHero</label>
         </div>
+
         <div class="mb-5">
-          <label for="exampleInputPassword1" class="form-label labelsubtitle">Ingresa el número del SuperHero a buscar:</label>
-          <input type="password" class="form-control">
+          <label for="exampleInputEmail" class="form-label labelsubtitle">Ingresa el número del SuperHero a buscar:</label>
+          <input id="inputBuscador" class="col-12" type="number" required placeholder="(del 1 al 731)"/>
            <button type="submit" class="btn btn-danger mt-3 buscarbutton">Buscar</button></div>
         </div>
       </form>
+  </section>
+
+  <section id="informacionHeroes">
+      <div class="card mb-3">
+        <div class="col-12" id="heroeDescripcion"></div>
+      </div>
+  </section>
 
 
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
 
 
 <!-- Footer -->
 
     <footer class="bg-warning text-center py-2">
         <img src="./assets/img/sh2.jpg" width="40" height="30" >
+        <a class="footer text-danger px-2" href="#nav">SuperHero</a>
         <p><strong>Bianca Salcedo</strong></p>
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
-    crossorigin="anonymous">
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-  </script>
-
-    <script src ="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+<!-- JQUERY  -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- CANVAS JS-->
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<!-- SCRIPT-->
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
