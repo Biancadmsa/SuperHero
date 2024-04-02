@@ -20,8 +20,8 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar" id="nav">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./assets/img/sh2.jpg" alt="Logo" width="38" height="34" class="d-inline-block align-text-top imgNavbar ">
             <span>SuperHero</span>
@@ -31,13 +31,13 @@
 
 
 <div class="container">
-      <section class="container text-center imgPrincipal" id="resultado">
+      <section class="container text-center imgPrincipal">
         <img src="assets/img/sh1.jpg" />
       </section>
 
 
-<!-- Formulario Buscador -->
-  <section>
+  <!-- Formulario Buscador -->
+    <section>
       <form>
         <div class="mb-3">
           <label for="exampleInputtext" class="form-label labeltitle">Encuentra tu SuperHero</label>
@@ -45,23 +45,22 @@
         <div class="mb-5">
           <label for="exampleInputEmail" class="form-label labelsubtitle">Ingresa el número del SuperHero a buscar:</label>
           <input id="inputBuscador" class="col-12" type="number" required placeholder="(del 1 al 731)"/>
-           <button type="submit" class="btn btn-danger mt-3 buscarbutton">Buscar</button></div>
+           <button type="submit" class="btn btn-danger mt-3 buscarbutton" >Buscar</button></div>
         </div>
       </form>
-  </section>
+    </section>
 
-<!-- Card -->
-  <section id="informacionHeroes">
-      <div class="card mb-3">
-        <div class="col-12" id="heroeDescripcion"></div>
+  <!-- Card -->
+    <section id="informacionHeroes mt-5">
+      <div class="card mb-6 ">
+        <div class="col-12 " id="heroeDescripcion"></div>
       </div>
-  </section>
-
-  </div>
+    </section>
+</div>
 
 
 <!-- Footer -->
-    <footer class="bg-warning text-center py-2">
+    <footer class="bg-warning text-center py-2 mt-5">
         <img src="./assets/img/sh2.jpg" width="40" height="30" >
         <a class="footer text-danger px-2" href="#nav">SuperHero</a>
         <p><strong>Bianca Salcedo</strong></p>

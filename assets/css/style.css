@@ -6,13 +6,22 @@ body{
     background: #a8070f;
 }
 
+#nav{
+   margin: 1px -15px ;
+}
+
+.card {
+    width: 100%;
+    border-radius: 5px;
+    
+  
+  }
+
 span{
-   
     color:#dddddd;
     font-family:  'Roboto', sans-serif;
     font-weight: 500;
-    margin-left:1rem;
-    
+    margin-left:1rem; 
 }
 
 .imgNavbar{
@@ -68,4 +77,16 @@ form .buscarbutton{
 .letrasCard{
     font-family:  'Cabin', sans-serif;
    
+}
+
+#heroeDescripcion{
+    background-color: #a8070f;
+}
+
+#heroTarjeta{
+    height: 100%;
+margin-top: auto;
+   justify-content: center;
+   align-items: center;
+  
 }
