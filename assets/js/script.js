@@ -48,10 +48,10 @@ $("document").ready(function () {
           $("#heroeDescripcion").html(`
           <div class="container">
             <div class="row bg-dark align-items-center">
-              <div class="col-md-4 my-auto text-center">
+              <div class="col-md-3 my-auto text-center">
                 <img id="heroImg" src="${imagen}" class="img-fluid" alt="Imagen del héroe"/>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <div class="card-body text-white letrasCard">
                   <h5 class="card-text"><b>NOMBRE:</b></h5>
                   <h4 class="card-title fw-semibold text-danger"><b>${nombre}</b></h4>
@@ -70,7 +70,7 @@ $("document").ready(function () {
                   <p class="card-text"><b>ALIAS:</b> ${alias}.</p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <div id="heroTarjeta" style="height:550px; width: 100%"></div>
               </div>
             </div>
