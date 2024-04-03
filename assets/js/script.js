@@ -48,31 +48,32 @@ $("document").ready(function () {
           }
   
           // SE INGRESAN LOS DATOS PARA LA TARJETA DEL SUPERHEROE
-       $("#heroeDescripcion").html(`
-<div class="container">
-  <div class="row bg-dark">
-    <div class="col-md-4 my-auto text-center">
-      <img id="heroImg" src="${imagen}" class="img-fluid" alt="Imagen del héroe"/>
-    </div>
-    <div class="col-md-4 mt-5">
-      <div class="card-body text-white letrasCard">
-        <h5 class="card-text"><b>NOMBRE:</b></h5>
-        <h4 class="card-title fw-semibold text-danger"><b>${nombre}</b></h4>
-        <p class="card-text mt-5"><b>CONEXIONES:</b> ${conexiones}.</p>
-        <p class="card-text"><b>FECHA DE PUBLICACIÓN:</b> ${publicado}.</p>
-        <p class="card-text"><b>OCUPACIÓN:</b> ${ocupacion}.</p>
-        <p class="card-text"><b>PRIMERA APARICIÓN:</b> ${primeraAparicion}.</p>
-        <p class="card-text"><b>ALTURA:</b> ${altura}.</p>
-        <p class="card-text"><b>PESO:</b> ${peso}.</p>
-        <p class="card-text"><b>ALIAS:</b> ${alias}.</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div id="heroTarjeta"></div>
-    </div>
-  </div>
-</div>
-`);
+          $("#heroeDescripcion").html(`
+          <div class="container">
+            <div class="row bg-dark align-items-center">
+              <div class="col-md-4 my-auto text-center">
+                <img id="heroImg" src="${imagen}" class="img-fluid" alt="Imagen del héroe"/>
+              </div>
+              <div class="col-md-4">
+                <div class="card-body text-white letrasCard">
+                  <h5 class="card-text"><b>NOMBRE:</b></h5>
+                  <h4 class="card-title fw-semibold text-danger"><b>${nombre}</b></h4>
+                  <p class="card-text mt-5"><b>CONEXIONES:</b> ${conexiones}.</p>
+                  <p class="card-text"><b>FECHA DE PUBLICACIÓN:</b> ${publicado}.</p>
+                  <p class="card-text"><b>OCUPACIÓN:</b> ${ocupacion}.</p>
+                  <p class="card-text"><b>PRIMERA APARICIÓN:</b> ${primeraAparicion}.</p>
+                  <p class="card-text"><b>ALTURA:</b> ${altura}.</p>
+                  <p class="card-text"><b>PESO:</b> ${peso}.</p>
+                  <p class="card-text"><b>ALIAS:</b> ${alias}.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="heroTarjeta" style="height:550px; width: 100%"></div>
+              </div>
+            </div>
+          </div>
+          `);
+          
   
           //  METODO push PARA INGRESAR DATOS EN LA ESTADISTICA DEL CHART DE CANVAS
   
