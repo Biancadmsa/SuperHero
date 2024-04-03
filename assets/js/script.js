@@ -12,10 +12,7 @@ $("document").ready(function () {
         // Si el valor ingresado no es un número
         alert("Solo hay 731 Super Heros. Por favor, ingrese un número entre 1 y 731.");
       }
-    else if (isNaN(numeroIngresado== "e")) {
-    // Si el valor ingresado no es un número
-    alert("El valor ingresado no es válido. Por favor, ingrese un número entre 1 y 731.");
-  }
+   
   
       // SE HACE LA CONSULTA AJAX con EL VALOR DEL numero ingresado
   
