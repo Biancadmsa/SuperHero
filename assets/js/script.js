@@ -59,11 +59,17 @@ $("document").ready(function () {
                   <h5 class="card-text"><b>NOMBRE:</b></h5>
                   <h4 class="card-title fw-semibold text-danger"><b>${nombre}</b></h4>
                   <p class="card-text mt-5"><b>CONEXIONES:</b> ${conexiones}.</p>
+                  <hr>
                   <p class="card-text"><b>FECHA DE PUBLICACIÓN:</b> ${publicado}.</p>
+                  <hr>
                   <p class="card-text"><b>OCUPACIÓN:</b> ${ocupacion}.</p>
+                  <hr>
                   <p class="card-text"><b>PRIMERA APARICIÓN:</b> ${primeraAparicion}.</p>
+                  <hr>
                   <p class="card-text"><b>ALTURA:</b> ${altura}.</p>
+                  <hr>
                   <p class="card-text"><b>PESO:</b> ${peso}.</p>
+                  <hr>
                   <p class="card-text"><b>ALIAS:</b> ${alias}.</p>
                 </div>
               </div>
