@@ -76,3 +76,12 @@ form .buscarbutton{
 #heroeDescripcion{
     background-color: #f80303;
 }
+
+ .nombreSuperhero{
+    font-size: 35px;
+}
+
+.titulo{
+    font-size: 22px;
+    
+}

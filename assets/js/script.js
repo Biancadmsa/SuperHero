@@ -53,9 +53,10 @@ $("document").ready(function () {
               </div>
               <div class="col-md-3">
                 <div class="card-body text-white letrasCard">
-                  <h5 class="card-text"><b>NOMBRE:</b></h5>
-                  <h4 class="card-title fw-semibold text-danger"><b>${nombre}</b></h4>
-                  <p class="card-text mt-5"><b>CONEXIONES:</b> ${conexiones}.</p>
+                <h4 class="card-title titulo text-center  mb-2">SUPER HÉROE ENCONTRADO:</h4>
+                <h5 class="card-text nombreSuperhero fw-semibold text-danger"><b>Nombre:</b> <b>${nombre}</b></h5>
+                
+                  <p class="card-text "><b>CONEXIONES:</b> ${conexiones}.</p>
                   <hr>
                   <p class="card-text"><b>FECHA DE PUBLICACIÓN:</b> ${publicado}.</p>
                   <hr>
@@ -67,7 +68,7 @@ $("document").ready(function () {
                   <hr>
                   <p class="card-text"><b>PESO:</b> ${peso}.</p>
                   <hr>
-                  <p class="card-text"><b>ALIAS:</b> ${alias}.</p>
+                  <p class="card-text"><b>ALIANZAS:</b> ${alias}.</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -100,7 +101,7 @@ $("document").ready(function () {
             data: [
               {
                 type: "pie",
-                startAngle: 25,
+                startAngle: 20,
                 toolTipContent: "<b>{label}</b>: {y}",
                 showInLegend: "true",
                 legendText: "{label} - {y}",
